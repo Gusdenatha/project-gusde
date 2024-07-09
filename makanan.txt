@@ -1,0 +1,38 @@
+public class makanan {
+    public String[][] appetizer = {
+        {"Salad", "15000"},
+        {"Soup", "12000"},
+        {"Spring Roll", "25000"},
+        {"Stuffed Mushrooms", "35000"},
+        {"Nachos", "30000"}
+    };
+    
+    public String[][] makanan = {
+        {"Spaghetti Carbonara", "70000"},
+        {"Beef Steak", "100000"},
+        {"Vegetarian Pizza", "95000"},
+        {"Nasi Goreng Special", "60000"},
+        {"Grilled Salmon", "125000"}
+    };
+    
+    public String[][] minuman = {
+          {"Orange Juice", "15000"},
+        {"Hot Tea", "10000"},
+        {"Ice Tea", "10000"},
+        {"Bintang", "55000"},
+        {"Arak Bali", "35000"}
+    };
+    
+    public String[][] dessert = {
+        {"Cheesecake", "45000"},
+        {"Creme Brulee", "35000"},
+        {"Chocolate Lava Cake", "55000"},
+        {"Apple Pie", "30000"},
+        {"Ice Cream Sundae", "25000"}
+    };
+
+    public int getParkir() {
+        return 2000;
+    }
+}
+
